@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'Nuxt Boilerplate',
+      title: 'Shortcuts',
       htmlAttrs: {
         lang: 'en',
       },
@@ -18,17 +18,15 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ['@/assets/css/styles.scss'],
-
   modules: [
     '@nuxt/ui',
-    '@nuxt/image',
     'nuxt-gtag',
     '@nuxt/eslint',
-    '@pinia/nuxt',
-    '@vueuse/nuxt',
-    '@nuxt/fonts',
   ],
+
+  colorMode: {
+    preference: 'light',
+  },
 
   gtag: {
     id: 'G-QNLZ5NY7HH',
@@ -40,5 +38,5 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-09-07',
+  compatibilityDate: '2024-09-28',
 });

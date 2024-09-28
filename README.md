@@ -1,5 +1,3 @@
-# Nuxt Boilerplate
+# Shortcuts
 
-Nuxt boilerplate including Nuxt.js, TailwindCSS, Pinia, VueUse, and ESlint!
-
-View it here: [https://boilerplate.lucaskchang.com/](https://boilerplate.lucaskchang.com/)
+A website to make some things I frequently use easier to access
